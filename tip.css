@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+   
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.app{
+    background-color: green;
+    padding: 20px 15px 25px;
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    box-shadow: 2px 4px 7px 4px rgba(0, 0, 0, 0.2);
+}
+.app h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+form {
+    width: 100%;
+    padding: 8px 0;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group:nth-last-child(2){
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 2px 4px 7px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+input:focus{
+    outline: none;
+}
+
+::placeholder{
+    font-size: 18px;
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.col-left {
+    flex-basis: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.col-left h2 {
+    font-size: 18px;
+    text-align: left;
+}
+
+.buttoncontainer {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+
+.backbtn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.nextbtn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+.arrtext{
+    font-size: 18px;
+}
+
+
+.col-right {
+    flex-basis: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.col-right h2 {
+    font-size: 18px;
+    text-align: right;
+    text-wrap: nowrap;
+}
+
+.per-amount {
+    text-align: right;
+    font-size: 35px;
+}
+
+.input-group span {
+    color: black;
+    display: none;
+}
+
+
+@media screen and (max-width:768px) {
+    ::placeholder{
+        left: 10%;
+    }
+}
+
+
+
+
+
